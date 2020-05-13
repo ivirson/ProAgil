@@ -1,0 +1,119 @@
+[
+
+	{
+		"local": "Belo Horizonte",
+		"DataEvento": "2020-06-28T08:00:00",
+		"Tema": "Angular",
+		"QtdPessoas": 200,
+		"ImagemUrl": "img1.jpg",
+		"Telefone": "31978456652",
+		"Email": "angular@angular.com.br",
+		"Lotes": [],
+		"RedesSociais": [],
+		"PalestrantesEventos": []
+	},
+	{
+		"local": "São Paulo",
+		"DataEvento": "2020-09-30T09:00:00",
+		"Tema": "Angular e React",
+		"QtdPessoas": 250,
+		"ImagemUrl": "img2.jpg",
+		"Telefone": "97845655",
+		"Email": "react@react.com",
+		"Lotes": [
+			{
+				"Nome": "1º Lote",
+				"Preco": 50.5,
+				"DataInicio": null,
+				"DataFim": null,
+				"quantidade": 100
+			},
+			{
+				"nome": "2º Lote",
+				"preco": 60.5,
+				"DataInicio": null,
+				"DataFim": null,
+				"quantidade": 125
+			}
+		],
+		"RedesSociais": [],
+		"PalestrantesEventos": []
+	},
+	{
+		"local": "Rio de Janeiro",
+		"DataEvento": "2020-07-18T08:30:00",
+		"Tema": ".NET Core",
+		"QtdPessoas": 350,
+		"ImagemUrl": "img3.jpg",
+		"Telefone": "55669988",
+		"Email": "net@net.com",
+		"Lotes": [
+			{
+				"nome": "1º Lote",
+				"preco": 60,
+				"DataInicio": null,
+				"DataFim": null,
+				"quantidade": 100
+			},
+			{
+				"nome": "2º Lote",
+				"preco": 70,
+				"DataInicio": null,
+				"DataFim": null,
+				"quantidade": 100
+			},
+			{
+				"nome": "3º Lote",
+				"preco": 80,
+				"DataInicio": null,
+				"DataFim": null,
+				"quantidade": 150
+			}
+		],
+		"RedesSociais": [
+			{
+				"nome": "Facebook",
+				"url": "http://facebook.com/blablabla"
+			},
+			{
+				"nome": "Twitter",
+				"url": "http://twitter.com/blebleble"
+			},
+			{
+				"nome": "instagram",
+				"url": "http://instagram.com/blobloblo"
+			}
+		],
+		"PalestrantesEventos": [
+
+		]
+	},
+	{
+		"id": 1,
+		"local": "Belo Horizonte",
+		"dataEvento": "2020-08-01T08:30:00",
+		"tema": "Angular",
+		"qtdPessoas": 200,
+		"imagemUrl": "img1.jpg",
+		"telefone": "31978456652",
+		"email": "angular@angular.com.br",
+		"lotes": [
+			{
+				"nome": "1º Lote",
+				"preco": 60,
+				"DataInicio": null,
+				"DataFim": null,
+				"quantidade": 100
+			},
+			{
+				"nome": "2º Lote",
+				"preco": 70,
+				"DataInicio": null,
+				"DataFim": null,
+				"quantidade": 100
+			}
+		],
+		"redesSociais": [],
+		"palestrantesEventos": []
+	}
+]
