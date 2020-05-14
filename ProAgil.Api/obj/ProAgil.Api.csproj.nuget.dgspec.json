@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj": {}
+    "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj": {
+    "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj",
+        "projectUniqueName": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj",
         "projectName": "ProAgil.Api",
-        "projectPath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj",
+        "projectPath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj",
         "packagesPath": "C:\\Users\\ivirson.m.daltro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\obj\\",
+        "outputPath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivirson.m.daltro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj"
+              "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+                "projectPath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj"
               },
-              "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj": {
-                "projectPath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj"
+              "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+                "projectPath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+    "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "projectName": "ProAgil.Domain",
-        "projectPath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectPath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "packagesPath": "C:\\Users\\ivirson.m.daltro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivirson.m.daltro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -139,14 +139,14 @@
         }
       }
     },
-    "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+    "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj",
         "projectName": "ProAgil.Repository",
-        "projectPath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "projectPath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\ProAgil.Repository.csproj",
         "packagesPath": "C:\\Users\\ivirson.m.daltro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\obj\\",
+        "outputPath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivirson.m.daltro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,8 +162,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj"
+              "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+                "projectPath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Domain\\ProAgil.Domain.csproj"
               }
             }
           }

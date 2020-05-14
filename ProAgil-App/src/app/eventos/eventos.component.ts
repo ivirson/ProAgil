@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { EventoService } from './../_services/evento.service';
+import { Component, OnInit, TemplateRef } from '@angular/core';
+import { Evento } from '../_models/Evento';
+import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-eventos',
@@ -19,17 +21,16 @@ export class EventosComponent implements OnInit {
     this.eventosFiltrados = this.filtroLista ? this.filtrarEventos(this.filtroLista) : this.eventos;
   }
 
-  eventos: any;
-  eventosFiltrados: any = [];
+  eventos: Evento[];
+  eventosFiltrados: Evento[];
   imagemLargura = 50;
   imagemMargem =  2;
+  modalRef: BsModalRef;
 
   mostrarImagem = false;
-  iconClass = 'fa-eye';
 
-  baseUrl = 'https://localhost:44393/eventos';
-
-  constructor(private http: HttpClient) { }
+  constructor(private eventoService: EventoService,
+              private modalService: BsModalService) { }
 
   ngOnInit() {
     this.getEventos();
@@ -37,10 +38,9 @@ export class EventosComponent implements OnInit {
 
   alternarImagem() {
     this.mostrarImagem = !this.mostrarImagem;
-    this.iconClass = this.iconClass === 'fa-eye' ? 'fa-eye-slash' : 'fa-eye';
   }
 
-  filtrarEventos(filtrarPor: string): any {
+  filtrarEventos(filtrarPor: string): Evento[] {
     filtrarPor = filtrarPor.toLocaleLowerCase();
     return this.eventos.filter(
       evento => evento.tema.toLocaleLowerCase().indexOf(filtrarPor) !== -1 ||
@@ -49,12 +49,18 @@ export class EventosComponent implements OnInit {
   }
 
   getEventos() {
-    this.http.get(this.baseUrl).subscribe(response => {
-      // console.table(response);
-      this.eventos = response;
+    this.eventoService.getAllEventos().subscribe(
+      (_eventos: Evento[]) => {
+      this.eventos = _eventos;
+      this.eventosFiltrados = this.eventos;
+      console.table(_eventos);
     }, error => {
       console.log(error);
     });
+  }
+
+  openModal(template: TemplateRef<any>) {
+    this.modalRef = this.modalService.show(template);
   }
 
 }

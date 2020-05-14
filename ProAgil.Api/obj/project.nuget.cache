@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ldX6S8W69JH+xM0shoGhDIsfox6EkWeZ7AnvvzGnvavvOM8JzxCb9w+KaPogIEX675oSDuLi9g5DeRNIPP965g==",
+  "dgSpecHash": "rgAdMVVhf0J58MSiiRsPF5LizrSPqfHTSwEm0uHBKtwkQfV0tWli9i9bUjqbOWHevV7XfzZflEey/OqyImbX5w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj",
+  "projectFilePath": "C:\\Users\\ivirson.m.daltro\\Documents\\Angular\\dotnetcore-angular\\ProAgil.Api\\ProAgil.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivirson.m.daltro\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ivirson.m.daltro\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
